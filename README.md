@@ -8,23 +8,23 @@ Credentials:
 Requirements
 
 1. Product Management (CRUD - Jewellery Products)
-     Add, update, delete, and list products.
-     UI with text/number inputs, category selection, discount & tax options.
-     Image selection UI (Optional image upload; if no backend, skip upload integration).
+     - Add, update, delete, and list products.
+     - UI with text/number inputs, category selection, discount & tax options.
+     - Image selection UI (Optional image upload; if no backend, skip upload integration).
 2. Billing System
-     Select products, enter quantity, apply discounts & taxes.
-     Real-time total calculations.
-     PDF invoice generation with product details, total, discount, and taxes.
+     - Select products, enter quantity, apply discounts & taxes.
+     - Real-time total calculations.
+     - PDF invoice generation with product details, total, discount, and taxes.
 3. Billing History
-     Store and display previous billing records with search, filter & sorting.
-     Pagination and lazy loading for performance.
+     - Store and display previous billing records with search, filter & sorting.
+     - Pagination and lazy loading for performance.
 4. UI & Micro Widgets
-     Material Design for a modern, responsive UI.
-     Reusable UI components (buttons, product lists, billing summary, etc.)
+     - Material Design for a modern, responsive UI.
+     - Reusable UI components (buttons, product lists, billing summary, etc.)
 5. Authentication (Optional)
-     Login page using GetX, Provider, or Bloc.
+     - Login page using GetX, Provider, or Bloc.
 6. Backend (Optional)
-     If required, use Node.js & MongoDB, else use local storage.
+     - If required, use Node.js & MongoDB, else use local storage.
 
 
 Features Implemented
@@ -51,5 +51,9 @@ Features Implemented
 
 5. Authentication
     - Login page is present where email and password is required 
-    - State is maintained using GetX 
+    - State is maintained using GetX
+  
+Version Used
+    - Flutter Version - Flutter 3.13.4
+    - Dart Version - Dart 3.1.2
 
